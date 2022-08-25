@@ -13,7 +13,7 @@ void removechar(char str[100], int pos, int tam){
             verif = 1;
         }
     }
-    printf("testt: %s", str);
+    printf("String: %s", str);
 }
 
 int main()
