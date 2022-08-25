@@ -1,3 +1,5 @@
+//13. Faça um rotina que remova um caracter de uma string do tipo char Str[100], dada a posição do caracter.
+
 #include <stdio.h>
 
 //tam = 100
