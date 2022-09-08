@@ -1,1 +1,1 @@
-Exercício feito em C usando o material de aula e as referências colocadas no início do código.
+Exercício feito em C usando o material de aula fornecido e as referências colocadas no início do código (https://wiki.sj.ifsc.edu.br/index.php/SOP29005-2014-1 e https://pt.stackoverflow.com/questions/280470/mem%C3%B3ria-compartilhada-entre-processos-linux-c-opera%C3%A7%C3%B5es-matem%C3%A1ticas).
