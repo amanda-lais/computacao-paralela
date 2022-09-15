@@ -90,7 +90,7 @@ int main()
               pthread_create(&threads[contador++], NULL, multiplicar, (void*)(data));
         }
    
-  printf("Matriz final:- \n");
+  printf("Matriz final: \n");
   for (i = 0; i < tamMax; i++)
   {
     //função void multiplicar
