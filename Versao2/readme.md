@@ -12,8 +12,4 @@ Nessa versao 2 (paralela, com o arquivo de nome VersaoParalela2) o grupo refez a
 Optamos por mudar da linguagem Python para C, para alcançar maior desempenho, utilizando pthreads. 
 O grupo obteve dificuldade com a precisão de decimais na linguagem, portanto a partir de varias casas decimais, o progama retornava 0. Além disso, obtivemos precisão em 15 algarismos decimais, após isso tivemos impresição e os zeros da lingugagem.
 Utilizamos a função "clock_gettime()" para calcular o tempo, e a nossa primeira versão paralela teve um atraso de 5,116799 segundos na execução.
-
-
-
-
-![unknown (2)](https://user-images.githubusercontent.com/100282290/196856824-5a8e7692-367c-4fff-a171-1eabf40e6a08.png)
+Outra dificuldade do grupo foi com o output das threads, ao executar, ele mostra no console as duas threads em vez de apenas o resultado final.
