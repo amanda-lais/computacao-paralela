@@ -22,7 +22,7 @@ int main(void)
     E += 1.0/f;
   }
 
-  printf("E = %f\n", E);
+  printf("E = %.1000f\n", E);
   //system("pause");
   
   clock_gettime(CLOCK_REALTIME, &end);
