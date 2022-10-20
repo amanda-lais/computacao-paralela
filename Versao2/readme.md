@@ -17,3 +17,5 @@ O grupo obteve dificuldade com a precisão de decimais na linguagem, portanto a 
 Utilizamos a função "clock_gettime()" para calcular o tempo, e a nossa primeira versão paralela teve um atraso de 5,116799 segundos na execução.
 
 Outra dificuldade do grupo foi com o output das threads, ao executar, ele mostra no console as duas threads em vez de apenas o resultado final.
+
+O código foi executado em uma maquina com 2 núcleos, a partir da aws.
