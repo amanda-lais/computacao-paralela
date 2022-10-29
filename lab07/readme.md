@@ -10,5 +10,5 @@ Links externos:
 
 a) https://github.com/Chuphay/parallel/blob/master/openmp/trap.c
 
-b) https:https://silo.tips/download/prof-renato-pimentel-introduao-paralelismo-concorrencia-etc-programaao-paralela
+b) https://silo.tips/download/prof-renato-pimentel-introduao-paralelismo-concorrencia-etc-programaao-paralela
 
