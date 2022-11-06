@@ -1,4 +1,5 @@
 Valor somatória da versão x:
+
 Valor somatória da versão y:
 
 A abordagem - obteve um valor mais preciso pois -
