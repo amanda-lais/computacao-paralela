@@ -1,3 +1,7 @@
+(prints de execução, material utilizado, explicação código...)
+
+---
+
 Valor somatória da versão x:
 
 Valor somatória da versão y:
