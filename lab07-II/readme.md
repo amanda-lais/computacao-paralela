@@ -5,6 +5,7 @@
 -Fizemos pequenas alterações nos códigos das outras entregas (multiplicação de matrizes e da soma de trapézios), para alcançar outras versões paralelas.
 -Para o código das matrizes, utilizamos de base o material da universidade de Delaware, segue o link: https://www.eecis.udel.edu/~cavazos/cisc879/Lecture-03.pdf
 -Alteramos a utilização da biblioteca time para utilização do comando time no terminal para determinar o tempo de execução.
+-O grupo só teve êxito em uma das formas de paralelismo para o problema da multiplicação das matrizes, esse esta documentado abaixo.
 
 ### Códigos:
 -Os resultados deram parecidos devido a ordem de acesso das threads na variável global_result, e possivelmente devido a limitação dos testes (criação de máquinas com 2 cores na AWS).
