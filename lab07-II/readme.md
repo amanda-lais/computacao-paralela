@@ -24,6 +24,7 @@
 
 ### Soma dos trapézios -  soma de tempos
 *Tabelas feitas com a limitação dos 2 CPUs da aws
+*prints dos tempos de execução no arquivo printsExecLab7.md
 
 -Tabela para versao lock:
 
@@ -53,6 +54,7 @@ Gráfico da escalabilidade do Speedup:
 
 ### Multiplicação de matrizes
 *Tabelas feitas com a limitação dos 2 CPUs da aws
+*prints dos tempos de execução no arquivo printsExecLab7.md
 
 | Número de processadores | Número de threads | Tempo médio de execução |
 | --- | --- | --- |
