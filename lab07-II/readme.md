@@ -1,10 +1,13 @@
 ###Grupo:
 Aluno: Rodrygo Rogerio Vasconcellos
 TIA: 42014492
+
 Aluno: Nicolas Alteia Telles
 TIA: 42010225
+
 Aluno: Amanda Lais Xavier Fontes
 TIA: 31949436
+
 
 ### obs
 -Na criação das máquinas, não obtivemos êxito em criar máquinas com mais de 2 processadores, obtivemos erro de permissão(segue print abaixo), portanto os resultados foram feitos em máquias com 2 vCPUs
