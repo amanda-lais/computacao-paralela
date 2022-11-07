@@ -36,11 +36,6 @@ Comparando tempos de execução:
 | 4 | - | - |
 | 8 | - | - |
 
-
-Gráfico da escalabilidade do Speedup:
-
----
-
 -Tabela para versao atomic
 
 | Número de processadores | Número de threads | Tempo médio de execução (3 execuções) |
@@ -51,8 +46,9 @@ Gráfico da escalabilidade do Speedup:
 | 8 | - | - |
 
 Gráfico da escalabilidade do Speedup:
+-Azul claro para lock e Azul escuro para atomic:
 
----
+![image](https://user-images.githubusercontent.com/101070201/200263884-a948d2fb-c57b-484f-84a5-722391dbb87d.png)
 
 
 ### Multiplicação de matrizes
@@ -67,3 +63,5 @@ Gráfico da escalabilidade do Speedup:
 
 
 Gráfico da escalabilidade do Speedup:
+
+![image](https://user-images.githubusercontent.com/101070201/200264141-da9f368f-f21b-4719-8f41-b6ee1414bdaa.png)
