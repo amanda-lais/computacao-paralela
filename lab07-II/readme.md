@@ -11,55 +11,59 @@
 -Resultados das somatórias nos prints abaixo:
 
 -Para o primeiro método utilizamos o Lock (arquivo trapezioLock)
-Print das execuções do método na AWS:
+-Print das execuções do método na AWS:
+
 ![image](https://user-images.githubusercontent.com/101070201/200227111-84c88ebb-4314-4ef8-88f5-ab4ab645dd33.png)
 
 -Para o segundo método utilizamos o atomic (arquivo trapezioatomic)
+-Print das execuções do método na AWS:
+
 ![image](https://user-images.githubusercontent.com/101070201/200227132-9287e2ff-66bc-43aa-ad86-15e7189c560a.png)
 
 ---
 
-### Soma dos trapézios
+### Soma dos trapézios -  soma de tempos
+*Tabelas feitas com a limitação dos 2 CPUs da aws
 
-Valor somatória da versão x:
-
-Valor somatória da versão y:
-
-A abordagem - obteve um valor mais preciso pois -
-
+-Tabela para versao lock:
 
 Comparando tempos de execução:
 
-| Número de processadores | Número de threads | Tempo médio de execução |
+| Número de processadores | Número de threads | Tempo médio de execução (3 execuções) |
 | --- | --- | --- |
-| 1 | . | . |
-| 2 | . | . |
-| 4 | . | . |
-| 8 | . | . |
+| 1 | 1 | 3,16 |
+| 2 | 2 | 3,43s |
+| 4 | - | - |
+| 8 | - | - |
 
 
 Gráfico da escalabilidade do Speedup:
 
 ---
 
+-Tabela para versao atomic
+
+| Número de processadores | Número de threads | Tempo médio de execução (3 execuções) |
+| --- | --- | --- |
+| 1 | 1 | 2,33s |
+| 2 | 2 | 4,43s |
+| 4 | - | - |
+| 8 | - | - |
+
+Gráfico da escalabilidade do Speedup:
+
+---
+
+
 ### Multiplicação de matrizes
-
-
-Valor somatória da versão x:
-
-Valor somatória da versão y:
-
-A abordagem - obteve um valor mais preciso pois -
-
-
-Comparando tempos de execução:
+*Tabelas feitas com a limitação dos 2 CPUs da aws
 
 | Número de processadores | Número de threads | Tempo médio de execução |
 | --- | --- | --- |
-| 1 | . | . |
-| 2 | . | . |
-| 4 | . | . |
-| 8 | . | . |
+| 1 | 1 | 1,83 |
+| 2 | 2 |2,62s |
+| 4 | - | - |
+| 8 | - | - |
 
 
 Gráfico da escalabilidade do Speedup:
