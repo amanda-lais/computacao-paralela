@@ -1,4 +1,8 @@
-grupo
+Grupo:
+
+Aluno: Nicolas Alteia Telles || TIA: 42010225
+Aluno: Amanda Laís Xavier Fontes || TIA: 31949436
+Aluno: Rodrygo Rogerio Vasconcellos || TIA: 42014492
 
 ---
 
@@ -19,4 +23,5 @@ Construa uma tabela contendo o tempo médio de 3 execuções para cada versão e
 
 
 Gráfico da escalabilidade do Speedup:
+
 (Faça um gráfico que mostre a escalabilidade do Speedup para cada quantidade de threads utilizada.)
