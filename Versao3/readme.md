@@ -8,22 +8,9 @@ Aluno: Rodrygo Rogerio Vasconcellos || TIA: 42014492
 
 ---
 
-Prints, explicação (além da do critical.md), referências etc
+-Nessa versão mudados de pthreads para omp
+-retiramos as funções time do código
+-colocamos uma condição crítica para a soma das variáveis globais
+-Obtvemos um erro que não deixou compilar o código, segue print abaixo:
 
----
-
-(Faça uma comparação de tempo de execução com 1, 2, 4  e 8 processadores para a versão paralela.
-Construa uma tabela contendo o tempo médio de 3 execuções para cada versão e sua respectiva quantidade de threads;)
-
-
-| Número de processadores | Número de threads | Tempo médio de execução (3 execuções) | 
-| --- | --- | --- |
-| 1 |  |  |
-| 2 |  |  |
-| 4 | - | - |
-| 8 | - | - |
-
-
-Gráfico da escalabilidade do Speedup:
-
-(Faça um gráfico que mostre a escalabilidade do Speedup para cada quantidade de threads utilizada.)
+![image](https://user-images.githubusercontent.com/101070201/201053946-b810afe2-ac9c-4f79-9952-f10578058de2.png)
