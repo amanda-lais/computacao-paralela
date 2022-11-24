@@ -57,4 +57,4 @@ Print de uma execução na plataforma AWS:
 * No openMP, obtivemos imprecisão na sexta casa decimal com 100000 iterações
  * Resolvemos o problema a partir de um loop dentro de outro loop, para fazer o exponencial dentro das diversas iterações e isso prejudicou na hora de paralelizar, gerando erros e imprecisões para o openMP
 * O tempo de execução para pthreads foi menor do que o pragma, e por isso também escolhemos retornar para as pthreads
-* Para a versão de pthreads também em vez de duas funções, fizemos os dois loops, e isso impactou também no desenvolvimento do problema
+* Para a versão de pthreads também em vez de duas funções, fizemos o loop dentro do loop, e isso impactou também no desenvolvimento do problema
