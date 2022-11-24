@@ -40,6 +40,7 @@ Assim como na entrega da Versão 2:
 
 ### Versão openMP (passada)
 
-Refizemos o código para openMP, porém sem sucesso na segunda thread, com precisão de 6 casas decimais.
+Refizemos o código para openMP, com precisão de 6 casas decimais. e média de 730 segundos (3 execuções)
+print de uma execução na plataforma aws:
 
-![image](https://user-images.githubusercontent.com/100282290/203701102-f5ae8907-4824-4347-bd64-9ad8d7436c70.png)
+![image](https://user-images.githubusercontent.com/101070201/203731908-643201a9-b23f-48b0-b7d5-370736ef4479.png)
