@@ -26,7 +26,7 @@ Assim como na entrega da Versão 2:
 
 ---
 
-### Tentativa com OpenMP
+### Tentativa com OpenMP (apenas um adendo)
 
 Em relação a tentativa fazendo uso do OpenMP (código no repositório: tentativaPragma.c), corrigimos erros no nosso código OpenMP anterior e o print abaixo é a saída que estamos tendo.
 
