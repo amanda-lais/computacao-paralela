@@ -11,11 +11,19 @@ Aluno: Rodrygo Rogerio Vasconcellos || TIA: 42014492
 
 # Projeto Final
 
-Não conseguimos fazer uma versão que aprimorasse a nossa Versão 2. O grupo tentou fazer uso do paralelismo em GPU e teve dificuldade, também tentamos particularmente uma resolução utilizando o OpenMP (cujos detalhes estão mais abaixo), porém obtivemos problemas na saída de valores do programa e não conseguimos resolver. Arquivo: projFinal.c
+-O grupo decidiu voltar a versão utilizando pthreads, padrao POSIX.
+-Módulo time foi retirado e medido pelo console.
+-Resolvido o bug das threads da ultima versão, as variáveis de resultado estavam sendo chamadas dentro do loop, portanto o resultado estava errado.
+-Adotamos o paralelismo de tarefas, de forma que cada thread executasse um pedaço das interações (uma thread para cada pedaço), e como executamos na aws, fizemos com duas threads, sendo uma para cada metade, e logo depois disso juntamos os resultados.
 
-Print da execução na AWS:
+## Execuções apra 1000000 iterações:
 
-![image](https://user-images.githubusercontent.com/100282290/203699770-b40e77f3-dad9-45d3-82c5-d407ab2a4f9a.png)
+Duas execuções na AWS:
+![image](https://user-images.githubusercontent.com/101070201/203726887-9db66276-564b-4cba-b660-f793eb026547.png)
+
+Execução em outra plataforma com 2 threads (replit):
+![image](https://user-images.githubusercontent.com/101070201/203727644-2dd6f818-d750-4d21-89eb-6587d3cf78c7.png)
+
 
 
 Assim como na entrega da Versão 2:
