@@ -27,15 +27,13 @@ Execução em outra plataforma com 2 threads (replit):
 
 
 Assim como na entrega da Versão 2:
-* O grupo obteve dificuldade com a precisão de decimais na linguagem, portanto a partir de varias casas decimais, o progama retornava 0. Além disso, obtivemos precisão em 15 algarismos decimais, após isso tivemos imprecisão e os zeros da lingugagem.
 * Utilizamos a função "clock_gettime()" para calcular o tempo, e a nossa primeira versão paralela teve um atraso de 5,116799 segundos na execução.
-* Outra dificuldade do grupo foi com o output das threads, ao executar, ele mostra no console as duas threads em vez de apenas o resultado final.
 * O código foi executado em uma maquina com 2 núcleos, a partir da AWS.
 
 ---
 
 ### Versão openMP (passada)
 
-Refizemos o código para openMP, porém sem sucesso na segunda thread. 
+Refizemos o código para openMP, porém sem sucesso na segunda thread, com precisão de 6 casas decimais.
 
 ![image](https://user-images.githubusercontent.com/100282290/203701102-f5ae8907-4824-4347-bd64-9ad8d7436c70.png)
