@@ -34,7 +34,7 @@ void * Taylor (int thread_count,double* global_result_p)
       {
         f = f*j;
       }
-  #pragma omp reduction(+ : global_result_p)
+  #pragma omp critical
       * global_result_p += 1.0/f;
     }
 }
