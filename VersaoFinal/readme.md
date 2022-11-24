@@ -29,9 +29,13 @@ Execução em outra plataforma com 2 threads (replit):
 
 
 Assim como na entrega da Versão 2:
-* Utilizamos a função "clock_gettime()" para calcular o tempo, e a nossa primeira versão paralela teve um atraso de 5,116799 segundos na execução.
-* O código foi executado em uma maquina com 2 núcleos, a partir da AWS.
 
+* O código foi executado em uma maquina com 2 núcleos, a partir da AWS.
+* Nossa primeira versão foi feita em python (serial), e não conseguimos obter uma precisão maior que 10000 iterações, print execução:
+* ![image](https://user-images.githubusercontent.com/101070201/203731040-0ab6f0f8-8bbd-4034-98ac-b7608fc0c2a9.png)
+* A ultima versão feita em pragma,
+
+* 
 ---
 
 ### Versão openMP (passada)
