@@ -33,7 +33,7 @@ Assim como na entrega da Versão 2:
 * O código foi executado em uma maquina com 2 núcleos, a partir da AWS.
 * Nossa primeira versão foi feita em python (serial), e não conseguimos obter uma precisão maior que 10000 iterações, print execução:
 * ![image](https://user-images.githubusercontent.com/101070201/203731040-0ab6f0f8-8bbd-4034-98ac-b7608fc0c2a9.png)
-* A ultima versão feita em pragma,
+* A ultima versão feita em pragma demorou 730 segundos em média para executar as 1000000 iterações, e a ultima versão em média 678, obtendo assim um speed up de 1,0766. Não conseguimos comparar o speed-up com a versão serial em python devido as limitações da linguagem dela.
 
 * 
 ---
