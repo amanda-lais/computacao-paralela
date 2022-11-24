@@ -1,4 +1,4 @@
-Grupo:
+# Grupo:
 
 Aluno: Nicolas Alteia Telles || TIA: 42010225
 
@@ -8,6 +8,8 @@ Aluno: Rodrygo Rogerio Vasconcellos || TIA: 42014492
 
 
 ---
+
+# Projeto Final
 
 Não conseguimos fazer uma versão que aprimorasse a nossa Versão 2. O grupo tentou fazer uso do paralelismo em GPU e teve dificuldade, também tentamos particularmente uma resolução utilizando o OpenMP (cujos detalhes estão mais abaixo), porém obtivemos problemas na saída de valores do programa e não conseguimos resolver. Arquivo: projFinal.c
 
@@ -24,6 +26,8 @@ Assim como na entrega da Versão 2:
 
 ---
 
-Em relação a tentativa fazendo uso do OpenMP (código no repositório: tentativaPragma.c), o print abaixo é a saída que estamos tendo.
+### Tentativa com OpenMP
+
+Em relação a tentativa fazendo uso do OpenMP (código no repositório: tentativaPragma.c), corrigimos erros no nosso código OpenMP anterior e o print abaixo é a saída que estamos tendo.
 
 ![image](https://user-images.githubusercontent.com/100282290/203701102-f5ae8907-4824-4347-bd64-9ad8d7436c70.png)
