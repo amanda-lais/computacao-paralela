@@ -40,7 +40,12 @@ Assim como na entrega da Versão 2:
 
 ### Versão openMP (passada)
 
-Refizemos o código para openMP, com precisão de 6 casas decimais. e média de 730 segundos (3 execuções)
+-Refizemos o código para openMP, com precisão de 6 casas decimais. e média de 730 segundos (3 execuções)
 print de uma execução na plataforma aws:
 
 ![image](https://user-images.githubusercontent.com/101070201/203731908-643201a9-b23f-48b0-b7d5-370736ef4479.png)
+
+### Observações
+- Arquivo preVersaoFinal.c, contém experimentação com mais de duas threads para soma (porém nao foi utilizado na versão final)
+- pragmaEditado.c consiste na versão atualizada da versão com openMP
+- projFinal.c é a ver~soa final do projeto em C.
