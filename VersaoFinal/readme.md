@@ -34,8 +34,7 @@ Assim como na entrega da Versão 2:
 * Nossa primeira versão foi feita em python (serial), e não conseguimos obter uma precisão maior que 10000 iterações, print execução:
 * ![image](https://user-images.githubusercontent.com/101070201/203731040-0ab6f0f8-8bbd-4034-98ac-b7608fc0c2a9.png)
 * A ultima versão feita em pragma demorou 730 segundos em média para executar as 1000000 iterações, e a ultima versão em média 678, obtendo assim um speed up de 1,0766. Não conseguimos comparar o speed-up com a versão serial em python devido as limitações da linguagem dela.
-
-* 
+ 
 ---
 
 ### Versão openMP (passada)
@@ -44,6 +43,11 @@ Assim como na entrega da Versão 2:
 Print de uma execução na plataforma AWS:
 
 ![image](https://user-images.githubusercontent.com/101070201/203731908-643201a9-b23f-48b0-b7d5-370736ef4479.png)
+
+#### Problemas no openMP
+
+* Obtivemos imprecisão decimais na sexta casa decimal com 100000 iterações
+* Resolvemos o problema a partir de um loop dentro de outro loop, para fazer o exponencial dentro das diversas iterações e isso prejudicou na hora de paralelizar, gerando erros e imprecisões para o openMP
 
 ### Observações
 - Arquivo preVersaoFinal.c, contém experimentação com mais de duas threads para soma (porém nao foi utilizado na versão final)
