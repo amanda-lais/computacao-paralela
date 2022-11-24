@@ -44,10 +44,11 @@ Print de uma execução na plataforma AWS:
 
 ![image](https://user-images.githubusercontent.com/101070201/203731908-643201a9-b23f-48b0-b7d5-370736ef4479.png)
 
-#### Problemas no openMP
+#### Análise dos Problemas no openMP
 
 * Obtivemos imprecisão decimais na sexta casa decimal com 100000 iterações
 * Resolvemos o problema a partir de um loop dentro de outro loop, para fazer o exponencial dentro das diversas iterações e isso prejudicou na hora de paralelizar, gerando erros e imprecisões para o openMP
+* O tempo de execução para pthreads foi menor do que o pragma, e por isso também escolhemos retornar para as pthreads
 
 ### Observações
 - Arquivo preVersaoFinal.c, contém experimentação com mais de duas threads para soma (porém nao foi utilizado na versão final)
