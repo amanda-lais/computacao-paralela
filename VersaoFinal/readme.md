@@ -58,3 +58,4 @@ Print de uma execução na plataforma AWS:
  * Resolvemos o problema a partir de um loop dentro de outro loop, para fazer o exponencial dentro das diversas iterações e isso prejudicou na hora de paralelizar, gerando erros e imprecisões para o openMP
 * O tempo de execução para pthreads foi menor do que o pragma, e por isso também escolhemos retornar para as pthreads
 * Para a versão de pthreads também em vez de duas funções, fizemos o loop dentro do loop, e isso impactou também no desenvolvimento do problema
+* Outra razão para trocarmos de linguagem Python para C, foi a escolha do paralelismo de tarefas
