@@ -51,7 +51,7 @@ Print de uma execução na plataforma AWS:
 
 ---
 
-### Análise dos Problemas do Projeto
+## Análise dos Problemas do Projeto
 
 
 * No openMP, obtivemos imprecisão na sexta casa decimal com 100000 iterações
