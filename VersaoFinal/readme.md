@@ -16,12 +16,14 @@ Aluno: Rodrygo Rogerio Vasconcellos || TIA: 42014492
 -Resolvido o bug das threads da ultima versão, as variáveis de resultado estavam sendo chamadas dentro do loop, portanto o resultado estava errado.
 -Adotamos o paralelismo de tarefas, de forma que cada thread executasse um pedaço das interações (uma thread para cada pedaço), e como executamos na aws, fizemos com duas threads, sendo uma para cada metade, e logo depois disso juntamos os resultados.
 
-## Execuções apra 1000000 iterações:
+## Execuções para 1000000 iterações:
 
 Duas execuções na AWS:
+
 ![image](https://user-images.githubusercontent.com/101070201/203726887-9db66276-564b-4cba-b660-f793eb026547.png)
 
 Execução em outra plataforma com 2 threads (replit):
+
 ![image](https://user-images.githubusercontent.com/101070201/203727644-2dd6f818-d750-4d21-89eb-6587d3cf78c7.png)
 
 
