@@ -34,8 +34,8 @@ Assim como na entrega da Versão 2:
 
 ---
 
-### Tentativa com OpenMP (apenas um adendo)
+### Versão openMP (passada)
 
-Em relação a tentativa fazendo uso do OpenMP (código no repositório: tentativaPragma.c), corrigimos erros no nosso código OpenMP anterior e o print abaixo é a saída que estamos tendo.
+Refizemos o código para openMP, porém sem sucesso na segunda thread. 
 
 ![image](https://user-images.githubusercontent.com/100282290/203701102-f5ae8907-4824-4347-bd64-9ad8d7436c70.png)
