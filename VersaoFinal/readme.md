@@ -11,10 +11,10 @@ Aluno: Rodrygo Rogerio Vasconcellos || TIA: 42014492
 
 # Projeto Final
 
--O grupo decidiu voltar a versão utilizando pthreads, padrao POSIX.
--Módulo time foi retirado e medido pelo console.
--Resolvido o bug das threads da ultima versão, as variáveis de resultado estavam sendo chamadas dentro do loop, portanto o resultado estava errado.
--Adotamos o paralelismo de tarefas, de forma que cada thread executasse um pedaço das interações (uma thread para cada pedaço), e como executamos na aws, fizemos com duas threads, sendo uma para cada metade, e logo depois disso juntamos os resultados.
+- O grupo decidiu voltar a versão utilizando pthreads, padrao POSIX.
+- Módulo time foi retirado e medido pelo console.
+- Resolvido o bug das threads da ultima versão, as variáveis de resultado estavam sendo chamadas dentro do loop, portanto o resultado estava errado.
+- Adotamos o paralelismo de tarefas, de forma que cada thread executasse um pedaço das interações (uma thread para cada pedaço), e como executamos na aws, fizemos com duas threads, sendo uma para cada metade, e logo depois disso juntamos os resultados.
 
 ## Execuções para 1000000 iterações:
 
