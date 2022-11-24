@@ -48,4 +48,4 @@ print de uma execução na plataforma aws:
 ### Observações
 - Arquivo preVersaoFinal.c, contém experimentação com mais de duas threads para soma (porém nao foi utilizado na versão final)
 - pragmaEditado.c consiste na versão atualizada da versão com openMP
-- projFinal.c é a ver~soa final do projeto em C.
+- projFinal.c é a versão final do projeto em C.
