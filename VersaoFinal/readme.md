@@ -26,4 +26,4 @@ Assim como na entrega da Versão 2:
 
 Em relação a tentativa fazendo uso do OpenMP (código no repositório: tentativaPragma.c), o print abaixo é a saída que estamos tendo.
 
-![image](https://user-images.githubusercontent.com/100282290/203700183-b4a4df06-9038-458d-8118-eeea5f991a8c.png)
+![image](https://user-images.githubusercontent.com/100282290/203701102-f5ae8907-4824-4347-bd64-9ad8d7436c70.png)
